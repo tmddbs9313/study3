@@ -5,7 +5,7 @@ public class FinalFieldTest {
     /*수업목표. final 키워드에 대해 이해할 수 있다.*/
     /*필기.
        final
-    *  : final 은 종단의 의미를 가지는 키워드이다.
+    *  : final 은 중단의 의미를 가지는 키워드이다.
         final 키워드를 사용할 수 있는 위치는 다양한 편이며 의미가 약간 다르지만 결국 변경 불가의 의미.
         1. 지역변수 : 초기화 이후에 값 변경 불가
         2. 매개변수 : 호출 시 전달한 인자 변경 불가
@@ -51,7 +51,7 @@ public class FinalFieldTest {
 //    }
     /* 필기. 하지만 초기화 블럭으로는 초기화 할 수 있다,*/
     static {
-        STATIC_DOUBLE = 0,5;
+        STATIC_DOUBLE = 0.5;
 
     }
 
